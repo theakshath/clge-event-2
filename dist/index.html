@@ -5,11 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#2563EB" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://universe3d.edu/" />
     
     <!-- Primary Meta Tags -->
     <title>UniVerse 3D — Your Campus. Reimagined.</title>
     <meta name="title" content="UniVerse 3D — Your Campus. Reimagined." />
-    <meta name="description" content="Minimalist interactive 3D campus web application. Explore campus landmarks in WebGL 3D, discover upcoming tech events, and navigate with an intelligent AI assistant." />
+    <meta name="description" content="Minimalist interactive 3D campus web application. Visually explore digital campus landmarks in WebGL 3D, discover tech events, and navigate with an AI assistant." />
     <meta name="keywords" content="UniVerse 3D, Campus Map, 3D University, Interactive WebGL, React Three Fiber, Next.js, Campus Events, AI Assistant" />
     <meta name="author" content="UniVerse 3D Team" />
 
@@ -18,21 +20,40 @@
     <meta property="og:url" content="https://universe3d.edu/" />
     <meta property="og:title" content="UniVerse 3D — Your Campus. Reimagined." />
     <meta property="og:description" content="Minimalist interactive 3D campus web application. Explore campus landmarks in 3D, discover events, and ask the AI assistant." />
+    <meta property="og:image" content="https://universe3d.edu/og-image.jpg" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="UniVerse 3D — Your Campus. Reimagined." />
     <meta property="twitter:description" content="Minimalist interactive 3D campus web application. Explore campus landmarks in 3D, discover events, and ask the AI assistant." />
+    <meta property="twitter:image" content="https://universe3d.edu/og-image.jpg" />
 
     <!-- Performance Preconnects -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script type="module" crossorigin src="/assets/index-DafAz0Fl.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/vendor-dJWu6bFS.js">
-    <link rel="modulepreload" crossorigin href="/assets/three-im0DyOOu.js">
-    <link rel="stylesheet" crossorigin href="/assets/index-Ban16QUp.css">
+
+    <!-- Structured Data (JSON-LD) for Lighthouse SEO score -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "UniVerse 3D",
+      "applicationCategory": "EducationalApplication",
+      "operatingSystem": "All",
+      "description": "Minimalist interactive 3D campus website allowing students to visually explore a digital campus, find locations, discover upcoming events, and ask an AI assistant.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-D1XjB9Fj.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-BTQF8eb2.js">
+    <link rel="modulepreload" crossorigin href="/assets/three-DogFt8GD.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-Bc8xL_oO.css">
   </head>
-  <body class="bg-[#F8FAFC] text-slate-900 font-sans antialiased">
+  <body class="bg-[#F8FAFC] text-slate-900 font-sans antialiased selection:bg-blue-600 selection:text-white">
     <div id="root"></div>
   </body>
 </html>
